@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -77,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
                   Text(
                     'Sign in to continue your journey',
                     style: theme.textTheme.bodyLarge?.copyWith(
-                      color: theme.colorScheme.onBackground.withOpacity(0.7),
+                      color: theme.colorScheme.onSurface.withOpacity(0.7),
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -166,8 +168,8 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           Text(
                             'Remember me',
-                            style: TextStyle(
-                                color: theme.colorScheme.onBackground),
+                            style:
+                                TextStyle(color: theme.colorScheme.onSurface),
                           ),
                         ],
                       ),

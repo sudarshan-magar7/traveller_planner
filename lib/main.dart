@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trip_planner_agency/widgets/theme.dart';
 import 'package:trip_planner_agency/pages/home.dart';
 import 'package:trip_planner_agency/pages/login.dart';
-import 'package:trip_planner_agency/pages/Home.dart';
+import 'package:trip_planner_agency/pages/cardinfo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/': (context) => LoginPage(),
           '/home': (context) => HomePage(),
-          // '/profile': (context) => ProfilePage(),
+          '/profile': (context) => ItineraryForm(),
           // '/login': (context) => LoginPage(),
         });
   }

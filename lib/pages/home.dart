@@ -177,6 +177,7 @@ class _HomePageState extends State<HomePage> {
                 child: ElevatedButton.icon(
                   onPressed: () {
                     // Navigate to detailed trip page
+                    Navigator.pushReplacementNamed(context, '/profile');
                   },
                   icon: const Icon(Icons.visibility),
                   label: const Text(

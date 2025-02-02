@@ -9,12 +9,10 @@ final ThemeData lightTheme = ThemeData(
     primary: Color(0xFF8E44AD), // Deep Blue
     secondary: Color(0xFFFF6B35), // Sunset Orange
     surface: Colors.white,
-    background: Color(0xFFFAF3E0),
     error: Color(0xFFDC2626),
     onPrimary: Colors.white,
     onSecondary: Colors.white,
     onSurface: Color(0xFF333333),
-    onBackground: Color(0xFF333333),
     onError: Colors.white,
   ),
   appBarTheme: AppBarTheme(
@@ -70,12 +68,10 @@ final ThemeData darkTheme = ThemeData(
     primary: Color(0xFF0F172A), // Midnight Blue
     secondary: Color(0xFFFFA500), // Neon Orange
     surface: Color(0xFF1E1E1E),
-    background: Color(0xFF121212),
     error: Color(0xFFEF4444),
     onPrimary: Colors.white,
     onSecondary: Colors.white,
     onSurface: Color(0xFFE5E5E5),
-    onBackground: Color(0xFFE5E5E5),
     onError: Colors.white,
   ),
   appBarTheme: AppBarTheme(
