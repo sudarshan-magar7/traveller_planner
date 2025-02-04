@@ -214,3 +214,65 @@ Widget _buildActionButton() {
     ),
   );
 }
+
+
+
+  // void _showAddTripBottomSheet() {
+  //   showModalBottomSheet(
+  //     context: context,
+  //     isScrollControlled: true,
+  //     shape: const RoundedRectangleBorder(
+  //       borderRadius: BorderRadius.vertical(
+  //         top: Radius.circular(25),
+  //       ),
+  //     ),
+  //     builder: (context) => Padding(
+  //       padding: EdgeInsets.only(
+  //         bottom: MediaQuery.of(context).viewInsets.bottom,
+  //         left: 16,
+  //         right: 16,
+  //         top: 16,
+  //       ),
+  //       child: Column(
+  //         mainAxisSize: MainAxisSize.min,
+  //         crossAxisAlignment: CrossAxisAlignment.stretch,
+  //         children: [
+  //           Text(
+  //             'Add New Trip',
+  //             style: Theme.of(context).textTheme.headlineSmall,
+  //             textAlign: TextAlign.center,
+  //           ),
+  //           const SizedBox(height: 16),
+  //           TextField(
+  //             decoration: InputDecoration(
+  //               labelText: 'Trip Destination',
+  //               prefixIcon: Icon(
+  //                 Icons.location_on,
+  //                 color: Theme.of(context).colorScheme.primary,
+  //               ),
+  //             ),
+  //           ),
+  //           const SizedBox(height: 16),
+  //           TextField(
+  //             decoration: InputDecoration(
+  //               labelText: 'Dates',
+  //               prefixIcon: Icon(
+  //                 Icons.calendar_today,
+  //                 color: Theme.of(context).colorScheme.primary,
+  //               ),
+  //             ),
+  //           ),
+  //           const SizedBox(height: 24),
+  //           ElevatedButton(
+  //             onPressed: () {
+  //               Navigator.pop(context);
+  //               // TODO: Implement trip saving logic
+  //             },
+  //             child: const Text('Save Trip'),
+  //           ),
+  //           const SizedBox(height: 16),
+  //         ],
+  //       ),
+  //     ),
+  //   );
+  // }
